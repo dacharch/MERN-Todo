@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+.Home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+input{
+  width:300px ;
+  padding:10px ;
+  border-bottom: 2px solid;
+  outline: none ;
+
+}
+
+button{
+  color:white ;
+  background-color: black;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-left: 2px;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width:420px ;
+  color: #fff; 
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top:10px;
+  background-color: black;
+  justify-content: space-between;
+}
+.icon{
+  cursor: pointer;
+}
